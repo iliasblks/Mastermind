@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mastermind v1</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <input Type="button" value="MASTERMIND" onClick="history.go(0)" class="titre"/>
+        <h3>Entrez vos supposition :</h3>
+        <section>
+            <div class="form">
+                <div class="nombre">
+                <input type="number" name="anwser1" min="0" max="9" class="anwser1" />
+                <input type="number" name="anwser2" min="0" max="9" class="anwser2" />
+                <input type="number" name="anwser3" min="0" max="9" class="anwser3" />
+                <input type="number" name="anwser4" min="0" max="9" class="anwser4" />
+                </div>
+            <div class="bout">
+                <input
+                    type="submit"
+                    name="send"
+                    value="Valider"
+                    onclick={valid()}
+                />
+            </div>
+            </div>
+            
+            <div class="reponses">
+
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html> 

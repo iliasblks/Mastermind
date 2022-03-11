@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans&family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin-top: 10;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:rgb(141, 134, 220);
+}
+
+.titre{
+    color: greenyellow;
+    border-style: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.titre:hover{
+    cursor: pointer;
+    font-size: 36px;
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 25px;
+}
+
+.form{
+    border: 1px;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.bout{
+    margin-top: 25px;
+}
+
+.bout input{
+    border-style: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.bout input:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.nombre input{
+    background-color: greenyellow;
+    border-style: none;
+    width: 200px;
+    height: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.reponses p{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(238, 255, 0);
+    font-size: 22px;
+}
+
+.reponses{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.reponses input{
+    margin-top: 20px;
+    font-size: 15PX;
+    font-family: 'Press Start 2P', cursive;
+    border-style: none;
+    color: red;
+}
+
+.reponses input:hover{
+    cursor: pointer;
+    font-size: 19px;
+}
